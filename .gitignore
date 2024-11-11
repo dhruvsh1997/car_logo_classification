@@ -5,10 +5,11 @@ envCarLog/
 __pycache__/
 
 # Ignore media files and datasets
-media/MLModel/
 media/Dataset/
 
 # Ignore database files, logs, and temporary files
 *.sqlite3
 *.log
 *.tmp
+media/MLModel/CarlogClassification.ipynb
+gitDockerSteps.txt

@@ -19,6 +19,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+# Define STATIC_ROOT for collecting static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 

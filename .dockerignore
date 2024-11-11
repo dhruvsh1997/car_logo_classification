@@ -1,0 +1,15 @@
+# Ignore virtual environments
+envCarLog/
+
+# Ignore Django secret files and credentials
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+gitDockerSteps.txt
+media/MLModel/CarlogClassification.ipynb
+
+# Ignore media folders you don't want to include
+media/Dataset/
